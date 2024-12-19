@@ -1,6 +1,5 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { WalletConnect } from "@/components/WalletConnect"
 
 export default function Navbar() {
   return (
@@ -32,7 +31,6 @@ export default function Navbar() {
               Profile
             </Link>
           </nav>
-          <WalletConnect />
         </div>
       </div>
     </nav>

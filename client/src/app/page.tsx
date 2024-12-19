@@ -1,4 +1,3 @@
-import { AuctionGrid } from "@/components/auction/AuctionGrid"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
@@ -28,7 +27,6 @@ export default function Home() {
       
       <section>
         <h2 className="text-3xl font-bold mb-8">Featured Auctions</h2>
-        <AuctionGrid />
       </section>
     </div>
   )

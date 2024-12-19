@@ -16,7 +16,7 @@ interface AuctionCardProps {
 
 export function AuctionCard({ auction }: AuctionCardProps) {
   return (
-    <Card className="overflow-hidden border-neon-red/20 bg-black/50">
+    <Card className="overflow-hidden border-neon-red/20 bg-card">
       <CardHeader className="p-0">
         <div className="aspect-square relative">
           <Image
@@ -27,7 +27,7 @@ export function AuctionCard({ auction }: AuctionCardProps) {
           />
         </div>
       </CardHeader>
-      <CardContent className="p-4">
+      <CardContent className="p-4 text-card-foreground">
         <h3 className="text-lg font-bold mb-2">{auction.title}</h3>
         <div className="flex justify-between text-sm text-gray-400">
           <span>Current Bid</span>
